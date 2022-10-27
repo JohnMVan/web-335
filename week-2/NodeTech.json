@@ -1,0 +1,23 @@
+
+
+
+{
+	"STUDENT": [{
+		"studentId": "st0001",
+		"firstName": "Larry",
+		"lastName": "Johnson",
+		"ENROLLMENT": [{
+			"term": "fall 2022",
+			"gpa": "4.0",
+			"startDate": "2022-10-17",
+			"endDate": "2022-12-09",
+			"COURSE": [{
+				"courseId": "web335",
+				"description": "NoSQL",
+				"instructor": "Krasso",
+				"score": "1000",
+				"letterGrade": "A"
+			}]
+		}]
+	}]
+}

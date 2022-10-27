@@ -1,0 +1,24 @@
+
+
+
+{
+	"CUSTOMER": [{
+		"_id": "c0001",
+		"firstName": "Larry",
+		"lastName": "Johnson",
+		"dateOfBirth": "1994-03-22",
+		"username": "lj1994",
+		"INVOICE": [{
+			"_id": "or0001",
+			"createDate": "2022-10-27",
+			"shipDate": "2022-10-30",
+			"subtotal": "150.00",
+			"LINEITEM": [{
+				"_id": "li0001",
+				"productName": "some product",
+				"price": "500",
+				"qty": "2"
+			}]
+		}]
+	}]
+}

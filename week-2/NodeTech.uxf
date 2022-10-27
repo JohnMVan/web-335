@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>530</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>COURSE
+--
+a.coursed
+b. description
+c. instructor
+d. score
+e. letterGrade</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>370</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>STUDENT
+--
+a. studentId
+b. firstName
+c. lastName
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>240</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>ENROLLMENT
+--
+a. term
+b. gpa
+c. startDate
+d. endDate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>320</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r1=1
+m1=
+r2=n
+m2=
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;100.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>400</y>
+      <w>40</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r1=1
+m1=
+r2=n
+m2=
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>490</y>
+      <w>190</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r1=1
+m1=
+r2=n
+m2=
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>570</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ENROLLS
+
+bg=YELLOW</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
