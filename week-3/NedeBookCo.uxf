@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>330</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER
+--
+a. publisher_code  
+b. publisher_name
+c. publisher_address
+d. books   [FK]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>340</y>
+      <w>310</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>BOOKS
+--
+a. book_isbn  [PK]
+b. book_name
+c. book_price
+f. authors [FK]
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>340</y>
+      <w>320</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>AUTHORS
+--
+a. author_fist_name  
+b. author_last_name
+c. author_phone
+d. author_email
+e. author_first_name + author_last_name  [PK]
+f. books [FK]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>380</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>380</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=n
+m2=n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>400</y>
+      <w>60</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>HAS
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>410</y>
+      <w>60</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>HAS
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>670</x>
+      <y>160</y>
+      <w>230</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>NodeBookCo
+bg=white
+
+PK = Primary Key
+FK = Foreign Key</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

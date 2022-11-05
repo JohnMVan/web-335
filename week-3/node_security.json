@@ -1,0 +1,20 @@
+{
+    "USER": [{
+        "userId": "123456",
+        "roles": [{
+            "role0": [{
+                "permissions": [{
+                    "permission0": "admin",
+                    "permission1": "user"
+                }] 
+            }],
+            "role1": [{
+                "permissions": [{
+                    "permission0": "report",
+                    "permission1": "maintenance"
+                }]
+            }]
+        }]
+    }]
+}
+

@@ -1,0 +1,29 @@
+{
+    "publisher": {
+        "publisher_code": "123456",
+        "publisher_name": "a publisher",
+        "publisher_address": "123 Main St",
+        "books":[{
+            "book_isbn": "9879876543"
+        }]
+    },
+
+    "books": [{
+        "book_isbn": "987865431564",
+        "book_name": "a book",
+        "book_price": "10.00",
+        "authors": [{
+            "author_first_name + author_last_name": "John Smith"
+        }]        
+    }],
+
+    "authors": {
+        "author_first_name": "John",
+        "author_last_name": "Smith",
+        "author_phone": "402-555-5555",
+        "author_email": "johnsmith@gmail.com",
+        "books": [{
+            "book_isbn": "9786465311"
+        }]
+    } 
+}
