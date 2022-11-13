@@ -25,8 +25,8 @@ a. userId
     </coordinates>
     <panel_attributes>ROLES
 --
-a: role1
-b: role2</panel_attributes>
+a: role0
+b: role1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -39,8 +39,8 @@ b: role2</panel_attributes>
     </coordinates>
     <panel_attributes>PERMISSIONS
 --
-a. permissions1
-b. permissions2</panel_attributes>
+a. permissions0
+b. permissions1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
